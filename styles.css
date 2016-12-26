@@ -1,0 +1,29 @@
+html, body, #app {
+  height: 100%;
+}
+
+html {
+  background-color: #00A7FF;
+}
+
+.hb-landing-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.hb-landing-bee {
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  height: 600px;
+  width: 600px;
+}
+
+.hb-landing-bee.over {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  height: 625px;
+  width: 610px;
+}
+
