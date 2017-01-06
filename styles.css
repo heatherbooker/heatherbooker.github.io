@@ -1,9 +1,13 @@
-html, body, #app {
+html, body {
   height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 html {
   background-color: #00A7FF;
+  color: #1c1c1c;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .hb-landing-container {
@@ -20,10 +24,68 @@ html {
   width: 600px;
 }
 
+.hb-landing-bee:hover {
+  cursor: pointer;
+}
+
 .hb-landing-bee.over {
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
   height: 625px;
   width: 610px;
+}
+
+.hb-stuff-page {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+.hb-portals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.hb-portal {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 50%;
+  height: 270px;
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+}
+
+a.hb-portal {
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: #444679;
+  text-align: center;
+}
+
+a.hb-portal:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+a.hb-portal:focus {
+  outline: none;
+}
+
+.hb-portal-img {
+  height: 200px;
+}
+
+.hb-portal-orbis {
+  height: 160px;
+  margin-top: 30px;
+}
+
+.hb-portal-bee {
+  position: relative;
+  top: 15px;
 }
 
