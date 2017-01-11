@@ -35,7 +35,7 @@ html {
   width: 610px;
 }
 
-.hb-stuff-page {
+.hb-stuff-page, .hb-projects-page {
   height: 100%;
   display: flex;
   justify-content: space-around;;
@@ -60,14 +60,15 @@ html {
   padding: 10px;
 }
 
-a.hb-portal {
+a.hb-portal, .hb-portal {
   text-decoration: none;
   letter-spacing: 0.4em;
   color: #444679;
   text-align: center;
 }
 
-a.hb-portal:hover {
+a.hb-portal:hover, .hb-portal:hover {
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.75);
 }
 
@@ -79,7 +80,7 @@ a.hb-portal:focus {
   height: 200px;
 }
 
-.hb-portal-orbis {
+.hb-portal-orbis, .hb-portal-frenchly {
   height: 160px;
   margin-top: 30px;
 }
@@ -87,5 +88,15 @@ a.hb-portal:focus {
 .hb-portal-bee {
   position: relative;
   top: 15px;
+}
+
+.hb-projects-titles {
+  font-size: 14pt;
+}
+
+.hb-nav-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 

@@ -9,6 +9,8 @@
 
   <div class="hb-stuff-page">
 
+    <a href="/" class="hb-nav-arrow"><img src="./assets/arrow.svg" alt="back arrow" role="navigation"></a>
+
     <div class="hb-portals">
       <a class="hb-portal" href="/projects.html">
         <div>
@@ -16,21 +18,28 @@
           <h2>Projects</h2>
         </div>
       </a>
-      <a class="hb-portal" href="/cv.html">
+      <a class="hb-portal" href="https://ca.linkedin.com/in/heather-booker-1162b5b9">
         <div>
           <img class="hb-portal-img" src="./assets/heatherlearns.svg">
           <h2>CV</h2>
         </div>
       </a>
-      <a class="hb-portal" href="/bee.html">
+      <div class="hb-portal" id="itsABee">
         <div>
           <img class="hb-portal-img hb-portal-bee" src="./assets/Cartoon-Bee-PNG.png">
-          <h2>Bee</h2>
+          <h2 id="beeWisdom">Bee</h2>
         </div>
-      </a>
+      </div>
     </div>
 
   </div>
 
 </body>
+<script>
+  const hb_bee_stuff = ['I\'m just a bee.', 'Bzzt.', 'Beedelee.', 'Better get beezee.'];
+document.getElementById('itsABee').onclick = function() {
+  const beeWisdom = Math.floor(Math.random()*4);
+  document.getElementById('beeWisdom').innerText = hb_bee_stuff[beeWisdom];
+};
+</script>
 </html>
