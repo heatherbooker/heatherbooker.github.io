@@ -49,6 +49,12 @@ html {
   width: 80%;
 }
 
+.hb-portals-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .hb-portal {
   display: flex;
   justify-content: center;
@@ -83,6 +89,13 @@ a.hb-portal:focus {
 .hb-portal-orbis, .hb-portal-frenchly {
   height: 160px;
   margin-top: 30px;
+}
+
+.hb-portal-vue {
+  height: 160px;
+  margin-top: 30px;
+  position: relative;
+  top: 5px;
 }
 
 .hb-portal-bee {
