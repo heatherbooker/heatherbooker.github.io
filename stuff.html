@@ -27,7 +27,7 @@
       <a class="hb-portal" href="https://heatherbooker.github.io/blog">
         <div>
           <img class="hb-portal-img hb-portal-bee" src="./assets/Cartoon-Bee-PNG.png">
-          <h2 id="beeWisdom">Bee-log</h2>
+          <h2>Bee-log</h2>
         </div>
       </a>
     </div>
@@ -35,17 +35,4 @@
   </div>
 
 </body>
-<script>
-function getBeeWisdom() {
-  const hb_bee_stuff = ['I\'m just a bee.', 'Bzzt.', 'Beedelee.', 'Better get beezee.'];
-  const beeWisdom = hb_bee_stuff[Math.floor(Math.random()*4)];
-  if (beeWisdom === document.getElementById('beeWisdom').innerText) {
-    return getBeeWisdom();
-  }
-  return beeWisdom;
-}
-document.getElementById('itsABee').onclick = function() {
-  document.getElementById('beeWisdom').innerText = getBeeWisdom();
-};
-</script>
 </html>
