@@ -10,32 +10,7 @@ html {
   font-family: 'Orbitron', sans-serif;
 }
 
-.hb-landing-container {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  align-items: center;
-}
-
-.hb-landing-bee {
-  transition: all 0.1s ease-out;
-  -webkit-transition: all 0.1s ease-out;
-  height: 600px;
-  width: 600px;
-}
-
-.hb-landing-bee:hover {
-  cursor: pointer;
-}
-
-.hb-landing-bee.over {
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-  height: 625px;
-  width: 610px;
-}
-
-.hb-stuff-page, .hb-about-page {
+.hb-index, .hb-about-page {
   height: 100%;
   display: flex;
   justify-content: space-around;;
