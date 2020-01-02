@@ -13,7 +13,7 @@ html {
 .hb-index, .hb-about-page {
   height: 100%;
   display: flex;
-  justify-content: space-around;;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -88,8 +88,9 @@ a.hb-portal:focus {
   top: 15px;
 }
 
-.hb-nav-arrow {
+.hb-topnav {
   position: absolute;
   top: 20px;
   left: 20px;
+  list-style: none;
 }
