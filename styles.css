@@ -35,24 +35,37 @@ html {
   width: 610px;
 }
 
-.hb-stuff-page, .hb-projects-page {
+.hb-stuff-page, .hb-about-page {
   height: 100%;
   display: flex;
   justify-content: space-around;;
   align-items: center;
 }
 
-.hb-portals {
+.hb-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 80%;
 }
 
-.hb-portals-row {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
+.hb-about-page .hb-content {
+  margin-top: -100px;
+  flex-direction: column;
+  font-size: 140%;
+}
+
+.hb-about-page .hb-content p {
+  font-family: serif;
+  line-height: 1.5;
+}
+
+.hb-about-page .hb-content ul {
+  font-family: serif;
+  line-height: 1.5;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .hb-portal {
@@ -60,10 +73,10 @@ html {
   justify-content: center;
   background: rgba(255, 255, 255, 0.65);
   border-radius: 50%;
-  height: 270px;
-  width: 270px;
+  height: 320px;
+  width: 320px;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 a.hb-portal, .hb-portal {
@@ -86,16 +99,13 @@ a.hb-portal:focus {
   height: 200px;
 }
 
-.hb-portal-orbis, .hb-portal-frenchly {
+.hb-portal-stars {
   height: 160px;
   margin-top: 30px;
 }
 
-.hb-portal-vue {
-  height: 160px;
-  margin-top: 30px;
-  position: relative;
-  top: 5px;
+.hb-portal-stars h2 {
+  max-width: 80%;
 }
 
 .hb-portal-bee {
@@ -103,13 +113,8 @@ a.hb-portal:focus {
   top: 15px;
 }
 
-.hb-projects-titles {
-  font-size: 14pt;
-}
-
 .hb-nav-arrow {
   position: absolute;
   top: 20px;
   left: 20px;
 }
-
